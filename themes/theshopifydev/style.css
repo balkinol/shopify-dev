@@ -1,0 +1,612 @@
+/*
+Theme Name: The Shopify Dev
+*/
+
+/*
+ *Custom CSS
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+  .btn-secondary {
+      background-color: var(--secondary-color) !important;
+      box-shadow: none;
+      border: none !important;
+      border-radius: 0;
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+
+  .btn-lg {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .navbar button {
+    outline: none !important;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea,
+  a {
+      border: none !important;
+      border-radius: 0 !important;
+      outline: none !important;
+      box-shadow: none !important;
+      text-decoration: none !important;
+  }
+
+.navbar {
+    background-color: var(--primary-color);
+}
+
+.navbar-brand img{
+    width: 200px;
+}
+
+
+span {
+    color: var(--secondary-color);
+}
+
+/* Showcase */
+.showcase input[type="email"] {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.showcase img {
+    width: 70%;
+    margin-left: auto;
+}
+
+.showcase-content {
+    margin: auto auto auto 0;
+}
+
+.showcase h3 {
+    font-weight: bold;
+    font-size: 60px
+}
+
+.showcase input {
+    min-width: 400px;
+}
+
+.showcase button {
+    padding: 7px 30px;
+}
+
+/* Shopify Partner */
+.shopify-partner {
+    background: var(--primary-color);
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.shopify-partner h3 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.shopify-partner h4 {
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.shopify-partner img {
+    width: 100px;
+}
+
+/* Solution & Services */
+.solution-and-services {
+    text-align: center;
+    padding: 30px;
+}
+
+.solution-and-services h3 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.solution-and-services .row div {
+    margin-bottom: 40px;
+}
+
+.solution-and-services h4 {
+    font-weight: 300;
+}
+
+.solution-and-services img {
+    width: 120px;
+}
+
+/* Showcase 2 */
+.showcase-2 {
+    color: #fff;
+    padding: 80px 80px 80px 120px;
+    display: flex;
+    align-items: center;
+
+}
+
+.showcase-2 h3{
+    font-size: 40px;
+}
+
+/* Improve Your Store */
+.improve-your-store .row{
+    padding: 80px 0 40px 0;
+    display: flex;
+    align-items: center;
+}
+
+.improve-your-store img {
+    width: 100%;
+}
+
+.improve-your-store h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* Contact */ 
+.contact {
+    background-color: #f6f6f6;
+}
+
+.contact .row {
+    padding: 40px;
+}
+
+.contact .contact-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact .contact-text h3 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.contact .btn-lg {
+    font-weight: lighter;
+}
+
+ .contact input[type="text"],
+ .contact input[type="email"],
+ .contact input[type="password"],
+ .contact textarea {
+      background-color: #DCDCDC;
+  }
+
+/* footer */
+footer {
+    background-color: var(--primary-color);
+    padding: 20px 40px;
+}
+
+footer img {
+    width: 200px;
+}
+
+/* Back to Top */
+
+/* Wide Screen */
+@media (min-width: 1900px) {
+    
+
+    .showcase h3 {
+        font-size: 100px ;
+        font-weight: bold ;
+    }
+
+    .showcase form {
+        display: flex;
+    }
+
+    .showcase form input[type="email"] {
+        width: 630px;
+        height: 80px;
+        font-size: 30px;
+    }
+
+    .showcase button {
+        font-size: 30px;
+        height: 80px;
+        padding: 0 50px;
+    }
+
+    .navbar {
+        padding: 30px 0;
+    }
+
+    .navbar .container {
+        min-width: 90vw;
+    }
+
+    .navbar-brand img{
+        width: 400px;
+    }
+
+    .navbar-nav {
+        font-size: 30px;
+    }
+
+    .shopify-partner {
+        padding: 80px 0;
+    }
+
+    .shopify-partner .container {
+        min-width: 100vw;
+    }
+
+    .shopify-partner h3 {
+        font-size: 80px ;
+    }
+
+    .shopify-partner img {
+        width: 200px;
+    }
+
+    .shopify-partner h4 {
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    .solution-and-services {
+        padding: 80px 0;
+    }
+
+    .solution-and-services .container {
+        min-width: 100vw;
+    }
+
+    .solution-and-services h3{
+        font-size: 80px ;
+    }
+
+    .solution-and-services img {
+        width: 200px;
+    }
+
+    .solution-and-services h4 {
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    .showcase-2 {
+        min-height: 80vh;
+    }
+
+    .showcase-2 .vc_row {
+        margin-left: 100px;
+    }
+
+    .showcase-2 button {
+        font-size: 30px !important;
+        padding: 15px 70px !important;
+    }
+
+    .showcase-2 h3 {
+        font-size: 80px;
+        font-weight: bold;
+    }
+
+    .showcase-2 p {
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+
+    .showcase-2 a {
+        font-size: 40px;
+        padding: 20px 60px;
+    }
+
+    .improve-your-store {
+        padding: 80px 0;
+        margin-top: 40px;
+    }
+
+    .improve-your-store .container {
+        min-width: 90vw;
+    }
+
+    .improve-your-store h3 {
+        font-size: 80px;
+        font-weight: bold;
+        margin-left: 40px;
+    }
+
+    .improve-your-store p {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    .improve-your-store .col-lg-5 {
+        padding-left: 50px;
+    }
+
+    .contact {
+        padding: 80px 0;
+    }
+
+    .contact .container {
+        min-width: 90vw;
+    }
+
+    .contact .contact-text h3 {
+        font-size: 80px;
+        font-weight: bold;
+    }
+
+    .contact p {
+        font-size: 30px;
+    }
+
+    .contact label {
+        font-size: 30px;
+    }
+
+    .contact input {
+        height: 80px;
+    }
+
+    .contact textarea {
+        height: 300px;
+    }
+
+    .contact button {
+        font-size: 30px;
+        padding: 15px 70px;
+    }
+
+    footer img {
+        width: 400px;
+    }
+}
+
+/* Wide Screen End */
+
+
+@media (max-width: 1199.98px) {
+    .showcase h3 {
+        font-size: 40px
+    }
+    
+    .showcase input {
+        min-width: 250px;
+    }
+
+    .showcase button {
+        padding: 7px 20px;
+    }
+}
+
+    /* Medium devices */
+    @media (max-width: 991.98px) { 
+        .navbar-brand img{
+            width: 150px;
+        }
+
+        .showcase h3 {
+            font-size: 35px
+        }
+        
+        .showcase input {
+            min-width: 210px;
+        }
+    
+        .showcase button {
+            padding: 7px 15px;
+        }
+
+        .shopify-partner h3 {
+            font-size: 30px;
+        }
+        
+        .shopify-partner h4 {
+            font-size: 20px;
+        }
+        
+        .shopify-partner img {
+            width: 70px;
+        }
+
+        .solution-and-services h3 {
+            font-size: 35px;
+        }
+        
+        .solution-and-services h4 {
+            font-size: 20px;
+        }
+        
+        .solution-and-services img {
+            width: 100px;
+        }
+
+        .showcase-2 {
+            padding: 40px;
+        }
+        
+        .showcase-2 h3{
+            font-size: 40px;
+        }
+        
+       .showcase-2 .btn-lg {
+           padding-left: 25px;
+           padding-right: 25px;
+       }
+
+       .improve-your-store .row{
+           padding-top: 40px;
+    }
+
+    .improve-your-store h3 {
+        font-size: 30px;
+    }
+
+    .contact p {
+        display: none;
+    }
+
+    .contact .contact-text h3 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+    
+    footer img {
+        width: 150px;
+    }
+}
+
+    /* Small devices  */
+    @media (max-width: 767.98px) { 
+        .navbar-brand {
+            margin-left: 20px;
+        }
+
+        .navbar-brand img{
+            width: 100px;
+        }
+
+        .navbar-nav {
+            padding-left: 20px;
+        }
+
+        .nav-link {
+            font-size: 14px;
+        }
+
+        .shopify-partner {
+            padding: 20px;
+        }
+
+        .shopify-partner h3 {
+            font-size: 22px;
+        }
+
+        .shopify-partner .col-sm-4 {
+            margin-bottom: 40px;
+        }
+        
+        .shopify-partner h4 {
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        
+        .shopify-partner img {
+            width: 60px;
+        }
+
+        .solution-and-services h3 {
+            font-size: 30px;
+        }
+        
+        .solution-and-services .row div {
+            margin-bottom: 40px;
+        }
+        
+        .solution-and-services h4 {
+            font-size: 16px;
+        }
+        
+        .solution-and-services img {
+            width: 80px;
+        }
+
+        .showcase-2 {
+            padding: 20px;
+        }
+        
+        .showcase-2 h3{
+            font-size: 30px;
+        }
+
+        .showcase-2 p {
+            font-size: 14px;
+        }
+
+        .showcase-2 .btn-lg {
+            padding-left: 15px;
+            padding-right: 15px;
+            font-size: 14px;
+        }
+
+        .improve-your-store .row{
+            padding: 30px 20px 20px 20px;
+        }
+
+        .improve-your-store h3 {
+            font-size: 30px;
+            margin-top: 20px;
+        }
+
+        .improve-your-store p {
+            font-size: 14px;
+        }
+
+        .contact .contact-text h3 {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        .contact label {
+            font-size: 14px;
+        }
+
+        .contact .btn-lg {
+            width: 100%;
+            font-size: 14px;
+        }
+
+        footer {
+            padding: 10px;
+        }
+        
+        footer img {
+            width: 100px;
+        }
+    }
+
+    @media (max-width: 575.98px) { 
+        .showcase img {
+            width: 100%;
+        }
+
+        .showcase h3 {
+            font-size: 20px
+        }
+
+        .showcase form {
+            padding-right: 20px;
+        }
+        
+        .showcase input {
+            min-width: 100%;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+    
+        .showcase button {
+            width: 100%;
+            font-size: 14px;
+        }
+    }
